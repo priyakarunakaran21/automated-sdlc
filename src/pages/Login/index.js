@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.scss';
 const isExist = true;
 
-function Login() {
+const Login = () => {
+ 
   return (
       <div className="login-body">
           
@@ -25,6 +26,6 @@ function Login() {
 </div>
 </div>
   );
-}
+};
 
 export default Login;

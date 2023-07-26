@@ -1,11 +1,19 @@
 import React from 'react';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import Prompt from './Prompt';
 
 function PromptEngineering() {
   return (
-    <div>
-      <h2>PromptEngineering</h2>
-      {/* Add content specific to Module 1 */}
+    <>
+    <Header/>
+    <div className="main-wrapper">
+      <h1>Generate prompts using Prompt Engineering</h1>
+    
+      <Prompt/>
     </div>
+    <Footer/>
+    </>
   );
 }
 
